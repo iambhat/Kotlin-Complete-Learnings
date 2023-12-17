@@ -34,8 +34,7 @@ fun main() {
     println("Enter second number:")
     val number2 = readln().toInt()
 
-    if (number1 > number2)
-    {
+    if (number1 > number2) {
         println("Number $number1 is max")
     } else {
         println("Number $number2 is max")
